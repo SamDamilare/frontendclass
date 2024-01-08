@@ -1,0 +1,239 @@
+.overall {
+}
+.navbar {
+  display: flex;
+  inline-size: auto;
+  margin-top: 20px;
+}
+#logo {
+  display: flex;
+  align-self: self-start;
+  inline-size: auto;
+  width: 80%;
+}
+.realnav {
+  display: flex;
+  inline-size: auto;
+}
+#navb {
+  text-decoration: none;
+  color: #403c39;
+}
+#navbh {
+  text-decoration: none;
+  color: #f38160;
+  border-bottom: 1px solid #f38160;
+}
+.navbranch {
+  display: flex;
+  gap: 26px;
+  margin-left: 150px;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.navextreme {
+  display: flex;
+  margin-left: 200px;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+a:hover {
+  padding: 3px;
+  color: #f38160;
+  opacity: 50%;
+}
+
+#cart {
+  width: 60%;
+}
+#cir {
+  width: 20%;
+  position: relative;
+  top: -20px;
+}
+.mainpage1 {
+}
+#catchie {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.8px;
+  width: 500px;
+  margin-top: 100px;
+}
+#catchied {
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -20px;
+  width: 300px;
+}
+.sitesearch {
+  display: flex;
+  margin-top: -20px;
+}
+#search {
+  height: 32px;
+  width: 250px;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  margin-top: 30px;
+  max-width: 330px;
+  background-color: #f0efef;
+  border: 1px solid #f0efef;
+}
+#sbut {
+  background-color: #f38160;
+  border: #f38160 1px;
+  height: 36px;
+  width: 40px;
+  margin-top: 30px;
+  margin-left: -41px;
+  border-radius: 5px;
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.subpoint1 {
+  display: flex;
+  justify-content: left;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  gap: 10px;
+}
+.subpoint2 {
+  display: flex;
+  justify-content: left;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  gap: 10px;
+}
+#check {
+  width: 3%;
+}
+
+.pone {
+  background-color: rgba(243, 129, 96, 0.05);
+  border: solid #949494 1px;
+  padding: 10px;
+  width: fit-content;
+  text-align: center;
+  border-radius: 25px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+#spinach {
+  border-radius: 20px;
+  width: 50%;
+}
+.ptwo {
+  margin-top: 20px;
+  background-color: rgba(243, 129, 96, 0.05);
+  border: solid #949494 1px;
+  padding: 10px;
+  width: fit-content;
+  text-align: center;
+  border-radius: 25px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+#carrots {
+  border-radius: 20px;
+  width: 50%;
+  height: 100%;
+}
+#price {
+  color: #f38160;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.categories {
+  display: flex;
+}
+#cathead {
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  width: 300px;
+  text-align: left;
+}
+.categories {
+  margin-top: 70px;
+  display: flex;
+  justify-content: flex-start;
+}
+#catpic {
+  width: 30%;
+  align-self: flex-start;
+}
+#catsub {
+  margin-top: 0px;
+  margin-bottom: -10px;
+}
+.mainpage {
+  display: flex;
+  flex-direction: row;
+  inline-size: auto;
+}
+.mainpage3 {
+  margin-left: 410px;
+  margin-top: 100px;
+}
+
+#h5p1 {
+  max-width: 50%;
+  margin-left: -250px;
+  margin-top: -170px;
+  position: absolute;
+}
+
+#signup {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: #f38160;
+  color: white;
+  font-size: 10px;
+}

@@ -1,0 +1,9 @@
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.name {
+  background-color: #012c2c;
+  color: hsl(180, 14%, 99%);
+  padding: 20px 30px 40px 50px;
+  max-width: fit-content;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Management</title>
+    <link rel="stylesheet" href="/Assests/CSS/projectmanagement.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <div class="head"><h2>Project Management</h2></div>
+      <div class="bodywork">
+        <div>
+          <label class="projectname" for="projectname">Project Name</label>
+          <input
+            id="projectname"
+            type="text"
+            placeholder="Project Name"
+            required
+            autocomplete=""
+          />
+        </div>
+
+        <div class="assignedto">
+          <label for="assignedto">Assigned To</label>
+          <input
+            id="assignedto"
+            type="text"
+            placeholder="Assigned To"
+            required
+            autocomplete=""
+          />
+        </div>
+
+        <div>
+          <label class="startdate" for="startdate">Start Date</label>
+          <input id="startdate" type="date" placeholder="dd-mm-yy" required />
+        </div>
+
+        <div>
+          <label class="enddate" for="enddate">End Date</label>
+          <input id="enddate" type="date" placeholder="dd-mm-yy" required />
+        </div>
+
+        <div class="priority">
+          <h4>Priority</h4>
+          <label for="high">High</label>
+          <input id="high" type="radio" name="priority" value="=High" />
+          <label for="average">Average</label>
+          <input id="average" type="radio" name="priority" value="=Average" />
+          <label for="low">Low</label>
+          <input id="low" type="radio" name="priority" value="=Low" />
+        </div>
+
+        <div class="Description">
+          <h4>Description</h4>
+          <textarea
+            id="Description"
+            text="Description"
+            rows="3"
+            cols="30"
+          ></textarea>
+        </div>
+
+        <div class="buttons">
+          <button type="submit">Submit</button>
+          <button type="Clear">Clear</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,185 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Assests/CSS/Learn.css" />
-    <title>Frontend Class</title>
-    <h1>Hello World!</h1>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gelasio:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/Assests/CSS/landpage.css" />
+    <title>Bootstrap demo</title>
   </head>
-  <body>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quo,
-      fugiat ipsa ad earum, itaque debitis quidem dolores rem magnam atque!
-      Ullam veritatis dolor doloribus, ipsa fuga dolores! Porro, culpa.
-      <br />Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
-      deserunt cumque illo temporibus, quas tempora nam ad dolorum facere
-      pariatur asperiores, excepturi libero eum, obcaecati corrupti quos
-      exercitationem? Voluptatibus, atque! <br />
-      <em
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quis
-        explicabo officia suscipit maiores sapiente, molestiae soluta atque
-        eveniet! Natus sequi ut nostrum tempore quisquam rem corrupti.
-        Veritatis, harum sequi!</em
+  <body class="bg-dark container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
+      <div class="container px-5">
+        <a class="navbar-brand" href="#"
+          ><img src="/Assests/Images/Group 17826.svg" alt="Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Case Studies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="contact">
+            <button
+              class="btn btn-outline-success color-light"
+              style="color: white; background-color: red; border: red 1px"
+              type="submit"
+            >
+              Contact
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section
+      class="bg-dark text-light text-center"
+      style="display: flex; flex-direction: column"
+    >
+      <div
+        class="row container d-flex d-inline"
+        style="margin-top: 100px; align-items: center; justify-items: center; margin-left: 1%;"
       >
-    </p>
-    <h3>Class List By Arrival</h3>
-    <ol>
-      <li>Samuel Akhagbokhai</li>
-      <li>Oluwaseun Daniel</li>
-      <li>Oluwafemi Omolonu</li>
-      <li>Chimaobi O</li>
-    </ol>
-    <a href="https://www.google.com/">About Us</a>
-    <p title="About Us">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque veniam
-      quas minus ad minima perspiciatis ratione dolor harum expedita et
-      dignissimos deserunt, praesentium quisquam a atque accusantium iure iste
-      debitis.
-    </p>
-    <a href="practice.html">About Us</a>
-    <br />
-    <br />
-    <br />
-    <br />
-    <table>
-      <thread
-        ><tr>
-          <th>S/N</th>
-          <th>Name</th>
-          <th>Gender</th>
-          <th>Location</th>
-        </tr>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>
-              <ol type="A">
-                <li>Samuel</li>
-                <li>Akhagbokhai</li>
-              </ol>
-            </td>
-            <td>Male</td>
-            <td>USA</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>
-              <ol type="A" start="3">
-                <li>John</li>
-                <li>Smith</li>
-              </ol>
-            </td>
-            <td>Male</td>
-            <td>USA</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>
-              <ol type="E" start="5">
-                <li>Ali</li>
-                <li>Bongo</li>
-              </ol>
-            </td>
-            <td>Male</td>
-            <td>Cameroon</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>
-              <ol type="A" start="7">
-                <li>Maria</li>
-                <li>Woodetter</li>
-              </ol>
-            </td>
-            <td>Female</td>
-            <td>Canada</td>
-          </tr>
-
-          <tr>
-            <td>5</td>
-            <td>
-              <ol type="A" start="9">
-                <li>Esther</li>
-                <li>Chukwura</li>
-              </ol>
-            </td>
-            <td>Female</td>
-            <td>Nigeria</td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>
-              <ol type="A" start="11">
-                <li>Oyetayo</li>
-                <li>Akhagbokhai</li>
-              </ol>
-            </td>
-            <td>Female</td>
-            <td>USA</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>
-              <ul
+        <div class="col-6 col-sm-12 col-md-8 col-lg-6">
+          <h1
+            style="
+              text-align: left;
+              font-family: Lato;
+              font-size: 60px;
+              font-style: normal;
+              font-weight: 800;
+              
+            "
+          >
+            I am <span style="color: red">William</span> a UX Designer from the
+            Bronx
+          </h1>
+          <p style="text-align: left">
+            Hi, my name is Alex Smith and I love creating unique interfaces
+            using code. Pixel perfect every time just try me out.
+          </p>
+          <button
+            type="button"
+            class="btn btn-lg"
+            style="
+              color: white;
+              background-color: red;
+              border-radius: 2px;"
+          >
+            -My Works
+          </button>
+        </div>
+        <div class="col-4 col-sm-12 col-md-8 col-lg-6 img-fluid">
+          <img
+            src="/Assests/Images/lpmi.png"
+            class="img-responsive"
+            style="width: 110%"
+            alt="William's Image"
+          />
+        </div>
+      </div>
+    </section>
+    <div
+      class="container-fluid d-flex m-auto"
+      style="
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        background-color: red;
+        color: white;
+        padding: 30px;
+      "
+    >
+      <h3>Facebook</h3>
+      <h3>Twitter</h3>
+      <h3>Google Plus</h3>
+      <h3>Linkedin</h3>
+    </div>
+    <div class="container-fluid bg-dark">
+      <div class="container bg-dark" style="text-align: center; padding: 50px">
+        <h6 style="color: red">My Services</h6>
+        <h3 class="text-light">Why hire me for your next project</h3>
+      </div>
+      <div
+        class="container bg-dark"
+        style="gap: 15px; display: flex; justify-content: center"
+      >
+        <div
+          class="card text-light"
+          style="width: 18rem; background-color: rgb(49, 49, 49)"
+        >
+          <div class="card-body">
+            <img style="width: 20%" src="/Assests/Images/Icon (1).png" />
+            <h5 class="card-title">Blog articles</h5>
+            <p class="card-text">
+              Mauris vel quam nunc. Quisque tempor tempus aliquet. Donec egestas
+              odio et tempor.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-light"
+          style="width: 18rem; background-color: rgb(49, 49, 49)"
+        >
+          <div class="card-body">
+            <img style="width: 20%" src="/Assests/Images/Icon.png" />
+            <h5 class="card-title">SEO strategy</h5>
+            <p class="card-text">
+              Mauris vel quam nunc. Quisque tempor tempus aliquet. Donec egestas
+              odio et tempor.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card text-light"
+          style="width: 18rem; background-color: rgb(49, 49, 49)"
+        >
+          <div class="card-body">
+            <img style="width: 20%" src="/Assests/Images/Icon (2).png" />
+            <h5 class="card-title">Content architecture</h5>
+            <p class="card-text">
+              Mauris vel quam nunc. Quisque tempor tempus aliquet. Donec egestas
+              odio et tempor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark text-light" style="display: flex; margin-top: 286px; margin-left: 12%; background-color: rgb(97, 97, 97); ">
+      <div
+        class="row" style="align-items: center;">
+        <div class="col-6">
+          <div>
+            <div d-flex>
+              <img
                 style="
-                  list-style-image: url('/Assests/Images/profile-user.png');
+                  height: min-content;
+                  width: 400px;
+                  gap: 30px;
+                  align-content: normal;
                 "
-              >
-                <li>Oyetayo</li>
-                <li>Akhagbokhai</li>
-              </ul>
-            </td>
-            <td>Female</td>
-            <td>USA</td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>
-              <style>
-                .style-resize > li::before {
-                  content: "";
-                  display: inline-flex;
-                  height: 15px;
-                  width: 15px;
-                  background-size: contain;
-                  background-image: url("/Assests/Images/profile-user.png");
-                  background-repeat: no-repeat;
-                  margin-right: 10px;
-                  background-position: center center;
-                  vertical-align: middle;
-                }
-              </style>
-              <ul class="style-resize" style="list-style-type: none">
-                <li>Oyetayo</li>
-                <li>Akhagbokha</li>
-              </ul>
-            </td>
-            <td>Female</td>
-            <td>Texas, USA</td>
-          </tr>
-        </tbody></thread
-      >
-    </table>
-    <style>
-      .style-resize > li::before {
-        content: "";
-        display: inline-block;
-        height: 50px;
-        width: 50px;
-        background-size: cover;
-        background-image: url("/Assests/Images/profile-user.png");
-        background-repeat: no-repeat;
-        margin-right: 10px;
-        background-position: center center;
-        vertical-align: middle;
-      }
-    </style>
+                src="/Assests/Images/Rectangle 5180.png"
+              />
+              <img src="/Assests/Images/Icon.svg" alt="Icon" />
+              <h4>UI/UX Design</h4>
+            </div>
+           <div ul class="list-group" style="gap: 10px; list-style-type: none; display: inline-flex; flex-direction: row; font-size: 13px;"> 
+              <li><img src="/Assests/Images/Group 1008.svg" alt="Group Icon" /></li>
+              <li><p>Web Design</p></li>
+              <li><img src="/Assests/Images/Group 1008.svg" alt="Group Icon" /></li>
+              <li><p>App Design</p></li>
+              <li><img src="/Assests/Images/Group 1008.svg" alt="Group Icon" /></li>
+              <li><p>Dashboard Design</p></li>
+            </div>
+                       </div>
+          <div>
+            <div d-flex>
+              <img
+                style="
+                  height: min-content;
+                  width: 400px;
+                  gap: 28px;
+                  align-content: normal;
+                "
+                src="/Assests/Images/Rectangle 5180.png"
+              />
+              <img src="/Assests/Images/Icon.svg" alt="Icon" />
+            </div>
+            <h4>Development</h4>
+            <div ul class="list-group" style="gap: 10px; list-style-type: none; display: inline-flex; flex-direction: row;  font-size: 13px;"> 
+              <li><img src="/Assests/Images/Group 1008.svg" alt="Group Icon" /></li>
+              <li><p>Web Development</p></li>
+              <li><img src="/Assests/Images/Group 1008.svg" alt="Group Icon" /></li>
+              <li><p>App Development</p></li>
+            </div>
+          </div>
+          <div>
+            <img
+              style="
+                height: min-content;
+                width: 400px;
+                gap: 30px;
+                align-content: normal;
+              "
+              src="/Assests/Images/Rectangle 5180.png"
+            />
+            <img src="/Assests/Images/Icon.svg" alt="Icon" />
+            <h4>Branding</h4>
+           <div ul class="list-group" style="gap: 10px; list-style-type: none; display: inline-flex; flex-direction: row;  font-size: 13px;"> 
+              <li><img src="/Assests/Images/Group 1008.svg" alt="Group Icon" /></li>
+              <li><p>Brand Logo</p></li>
+              <li><img src="/Assests/Images/Group 1008.svg" alt="Group Icon" /></li>
+              <li><p>Brand Promotion</p></li>
+            </div>
+            </div>
+          </div>
+        </div>
 
-    <ul class="style-resize" style="list-style-type: none">
-      <li>Vincent Van Gogh</li>
-      <li>Henri Matisse</li>
-      <li>Paul Gauguin</li>
-    </ul>
+        <div class="col-4">
+          <h1>Solving problems by the services</h1>
+          <p>
+            I seek to push the limits of creativity to create high-engaging,
+            user-friendly, and memorable interactive experiences.
+          </p>
+          <button
+            type="button"
+            class="btn btn-lg"
+            style="color: white; border-radius: 2px; background-color: red"
+          >
+            Learn More <img src="/Assests/Images/Vector 1828.svg" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2>Let’s a have a look at my portfolio</h2>
+      <p>
+        I seek to push the limits of creativity to create high-engaging,
+        user-friendly, and memorable interactive experiences.
+      </p>
+    </div>
+    <div class="container text-center">
+      <div class="row" style="margin-top: 100px; justify-content: center">
+        <div class="col-4">
+          <img src="/Assests/Images/Rectangle 5341.png" />
+        </div>
+        <div class="col-4">
+          <img src="/Assests/Images/Rectangle 5342.png" alt="" />
+        </div>
+        <div class="col-4">
+          <img src="/Assests/Images/Rectangle 5343.png" alt="" />
+        </div>
+        <div class="col-4">
+          <img src="/Assests/Images/Rectangle 5344.png" />
+        </div>
+        <div class="col-4">
+          <img src="/Assests/Images/Rectangle 5345.png" alt="" />
+        </div>
+        <div class="col-4">
+          <img src="/Assests/Images/Rectangle 5346.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div style="margin-top: 67px; display: flex; justify-content: center">
+      <button
+        type="button"
+        class="btn btn-lg"
+        style="background-color: orangered; border-radius: 2px; color: white"
+      >
+        VIEW MORE
+      </button>
+    </div>
+    <div style="text-align: center; color: white; margin-top: 183px;">
+      <h1>What Prople Say</h1>
+      <p style="width: 40%">Welcome to our gym & fitness training centre. Sore today, strong tomorrow. Improve your fitness today.</p>
+      
+    </div>
+    <div class="container text-align">
+      <div class="row gx-1" style="gap: 50px;">
+        <div
+          class="col-5 text-light"
+          style="
+            background: rgb(73, 72, 72);
+            border: 1px rgb(73, 72, 72);
+            border-radius: 2px;
+            margin-top: 53px;
+          "
+        >
+          <div class="p-3" style="font-size: 14px;">
+            I have been taking gym and fitness training here since a long time
+            and I found here so much easy, comfort and flexibility. The mentors
+            are so good and they train me very well.
+          </div>
+        </div>
+        <div
+          class="col-5 text-light"
+          style="
+            background: rgb(73, 72, 72);
+            border: 1px rgb(73, 72, 72);
+            border-radius: 2px;
+            margin-top: 53px;
+          "
+        >
+          <div class="p-3" style="font-size: 14px;">
+            I have been taking gym and fitness training here since a long time
+            and I found here so much easy, comfort and flexibility. The mentors
+            are so good and they train me very well.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex">
+      <div
+        class="d-flex col-6"
+        style="margin-top: 46px; align-items: center; gap: 20px"
+      >
+        <img
+          src="/Assests/Images/image 731.png"
+          class="rounded d-block"
+          style="background-color: rgb(73, 72, 72)"
+          alt="Ben Stokes"
+        />
+        <div class="text-light">
+          <h6
+            style="
+              font-family: Gelasio;
+              font-size: 15px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            "
+          >
+            Ben Stokes
+          </h6>
+          <p4 >Member</p4>
+        </div>
+      </div>
+        <div
+        class="d-flex col-6"
+        style="margin-top: 46px; margin-left: -3.5%; align-items: center; gap: 20px"
+      >
+        <img
+          src="/Assests/Images/image 856.png"
+          class="rounded d-block"
+          style="background-color: rgb(73, 72, 72)"
+          alt="Ben Stokes"
+        />
+        <div class="text-light">
+          <h6
+            style="
+              font-family: Gelasio;
+              font-size: 15px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            "
+          >
+            Ben Stokes
+          </h6>
+          <p4 >Member</p4>
+        </div>
+          
+        </div>
+      </div>
+    </div>
+    <div
+      class="conatainer-fluid d-flex"
+      style="
+        background-color: rgb(73, 72, 72);
+        padding: 68px;
+        gap: 40px;
+        margin-top: 136px;
+      
+      "
+    >
+      <div class="col-4 text-light">
+        <h4>Our Trusted Clients</h4>
+        <p2
+          style="font-size: 14px; margin-top: 20px;">Proin eget tortor risus cras ultricies ligula sed portavamus suscipit
+          tortor</p2
+        >
+      </div>
+      <div class="d-flex" style="gap: 100px; align-items: last baseline;">
+        <div><img src="/Assests/Images/LOGO (1).png" alt="" /></div>
+       <div><img src="/Assests/Images/LOGO (2).png" alt="" /></div>
+       <div><img src="/Assests/Images/LOGO (3).png" alt="" /></div>
+      </div>
+    </div>
+    <div>
+      <div class="row gx-5" style="margin-top: 99px; color: white; font-size: 14px; display: flex; align-items: center; justify-items: center;">
+        <div class="col-4">
+         <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+        <img src="/Assests/Images/Group 17826.svg" alt="">
+      </a>
+      <p class="">&copy; Proin eget tortor risus cras ultricies ligula sed portavamus suscipit tortor</p>
+        </div>
+        <div class="col-4">
+                   <form>
+          <h3 class="display-6">Newsletter</h3>
+                  <div class="d-flex w-60 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      </div>
+        </form>
+        </div>
+        <div class="col-4">
+          <h3 class="display-6">Follow Me</h3>
+          <img src="/Assests/Images/ICON.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
